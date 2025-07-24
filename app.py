@@ -7,7 +7,7 @@ from pydantic import BaseModel
 
 app = FastAPI()
 
-model = joblib.load("Decision.pkl")
+model = joblib.load("Decisions.pkl")
 vectorizer = joblib.load("tfidf.pkl")
 
 label_map = {0: "figurative", 1: "irony", 2: "regular", 3: "sarcasm"}
