@@ -8,7 +8,6 @@ scikit-learn==1.4.2
 joblib==1.5.1
 fastapi==0.95.2
 pydantic==1.10.11
-numpy==1.26.4
 requests==2.31.0
 streamlit==1.41.1
 uvicorn==0.35.0
