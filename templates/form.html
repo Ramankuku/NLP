@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tweet Classification</title>
+</head>
+<body>
+    <h2>Enter Tweet Text:</h2>
+    <form method="post" action="/predict/">
+        <input type="text" name="text" size="50" required>
+        <button type="submit">Predict</button>
+    </form>
+
+    {% if result %}
+        <h3>Prediction: {{ result }}</h3>
+    {% endif %}
+</body>
+</html>
